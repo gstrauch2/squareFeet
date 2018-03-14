@@ -78,40 +78,40 @@ int main() {
 
     }
 
-    cout << "the best deals are from greatest to least are" << endl;
+    cout << "These are the deals from best to worst:" << endl;
 
     // prints the order of the best deals
     // first print
     if(arrayPrintOrder[0] == dblScore1){
-        cout << "Deal 1" << endl;
+        cout << "model 1" << endl;
     }
     else if(arrayPrintOrder[0] == dblScore2) {
-        cout << "Deal 2" << endl;
+        cout << "model 2" << endl;
     }
     else {                         //default case
-        cout << "Deal 3" << endl;
+        cout << "model 3" << endl;
     }
 
     // second print
     if(arrayPrintOrder[1] == dblScore1){
-        cout << "Deal 1" << endl;
+        cout << "model 1" << endl;
     }
     else if(arrayPrintOrder[1] == dblScore2) {
-        cout << "Deal 2" << endl;
+        cout << "model 2" << endl;
     }
     else {                         //default case
-        cout << "Deal 3" << endl;
+        cout << "model 3" << endl;
     }
 
     //third print
     if(arrayPrintOrder[2] == dblScore1){
-        cout << "Deal 1" << endl;
+        cout << "model 1" << endl;
     }
     else if(arrayPrintOrder[2] == dblScore2) {
-        cout << "Deal 2" << endl;
+        cout << "model 2" << endl;
     }
     else {                         //default case
-        cout << "Deal 3" << endl;
+        cout << "model 3" << endl;
     }
 
     return 0;
