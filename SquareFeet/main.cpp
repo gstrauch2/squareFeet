@@ -25,7 +25,7 @@ int main() {
     double dblPrice2 = 1;
     double dblPrice3 = 1;
 
-    // the deals of each of the deals respectively
+    // the deals respectively
     double dblScore1 = 0;
     double dblScore2 = 0;
     double dblScore3 = 0;
