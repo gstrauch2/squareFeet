@@ -29,6 +29,8 @@ int main() {
     double dblScore1 = 0;
     double dblScore2 = 0;
     double dblScore3 = 0;
+    
+    //booleans so we dont have the same deals printed twice
     bool boolDeal1 = true;
     bool boolDeal2 = true;
 
