@@ -29,7 +29,8 @@ int main() {
     double dblScore1 = 0;
     double dblScore2 = 0;
     double dblScore3 = 0;
-
+    bool boolDeal1 = true;
+    bool boolDeal2 = true;
 
 //*
      // code block gets user input
@@ -82,32 +83,36 @@ int main() {
 
     // prints the order of the best deals
     // first print
-    if(arrayPrintOrder[0] == dblScore1){
+    if(arrayPrintOrder[0] == dblScore1 ){
         cout << "model 1" << endl;
+        boolDeal1 = false;
     }
     else if(arrayPrintOrder[0] == dblScore2) {
         cout << "model 2" << endl;
+        boolDeal2 = false;
     }
     else {                         //default case
         cout << "model 3" << endl;
     }
 
     // second print
-    if(arrayPrintOrder[1] == dblScore1){
+    if(arrayPrintOrder[1] == dblScore1 && boolDeal1){
         cout << "model 1" << endl;
+        boolDeal1 = false;
     }
-    else if(arrayPrintOrder[1] == dblScore2) {
+    else if(arrayPrintOrder[1] == dblScore2 && boolDeal2) {
         cout << "model 2" << endl;
+        boolDeal2 = false;
     }
     else {                         //default case
         cout << "model 3" << endl;
     }
 
     //third print
-    if(arrayPrintOrder[2] == dblScore1){
+    if(arrayPrintOrder[2] == dblScore1 && boolDeal1){
         cout << "model 1" << endl;
     }
-    else if(arrayPrintOrder[2] == dblScore2) {
+    else if(arrayPrintOrder[2] == dblScore2 && boolDeal2) {
         cout << "model 2" << endl;
     }
     else {                         //default case
